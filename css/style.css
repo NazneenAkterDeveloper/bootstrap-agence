@@ -1,0 +1,472 @@
+/* All common css start  */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+   
+}
+ul,ol{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/* All common css end  */
+
+/* Header part start  */
+.nav-link{
+    padding: 0 30px !important;
+    font-size: 18px;
+    font-weight: 400;
+    transition: .4s;
+    color: #fff;
+    
+   
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.nav-link:hover{
+    color: #6A4DF4;
+}
+.contactBtn{
+   padding: 20px 40px;
+    background:#6A4DF4 ;
+    border-radius: 10px;
+    color: #fff;
+}
+/* header part end */
+
+/*banner part start  */
+#bannerPart{
+    
+    background:url(../images/agenc-Banner\ 1.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bannerOverly{
+    background: rgba(0, 0, 0, 0.62);
+    padding-top: 330px;
+    padding-bottom: 170px;
+
+
+}
+.bannerContent h1{
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 120%;
+    padding-bottom: 60px;
+
+
+}
+.bannerContent p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0 216px;
+    margin-bottom: 45px;
+    
+}
+.bannerContent a{
+    padding: 20px 40px;
+    background: #6A4DF4;
+    color: #fff;
+    border-radius: 10px;
+    font-size:20px ;
+    font-weight: 600;
+}
+
+/* banner part end */
+
+/* counter part start  */
+#counterPart{
+    padding: 160px 0;
+}
+.extraCount{
+    padding: 90px 0;
+    background: #E0FFF9;
+    border-radius: 20px;
+}
+.counterLeft {
+    padding-left: 45px;
+}
+
+ .counterLeft h4{
+    
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    color: #6A4DF4;
+    padding-right: 100px;
+}
+.counterLeft h3{
+    
+    font-size: 35px;
+    font-weight: 600;
+    padding-right: 190px;
+    line-height: 120%;
+
+}
+.counterItem h3{
+    font-size:50px ;
+    font-weight: 700;
+    color: #151515;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.counterItem p{
+    font-size:20px ;
+    font-weight: 500;
+    color: #737373;
+}
+/* counter part end */
+/* service part start  */
+#servicePart{
+    padding-bottom:160px ;
+}
+
+.serviceHead h3{
+    font-size: 46px;
+    font-weight: 700;
+    color: #151515;
+}
+.serviceHead p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    padding-top: 35px;
+    padding-bottom: 55px;
+    line-height: 24px;
+
+}
+.serviceItem{
+    padding: 55px;
+    transition: .4s;
+}
+.serviceText h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #151515;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.serviceText p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #737373;
+   
+    line-height: 24px;
+
+}
+.serviceItem:hover{
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+border-radius: 20px;
+}
+/* service part end  */
+
+
+
+/*work part start  */
+#workPart{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background: #F3F3F3;
+}
+.workText h3{
+    font-size: 46px;
+    font-weight: 700;
+    color: #151515;
+
+}
+.workText p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    padding-top: 35px;
+    padding-bottom: 55px;
+    line-height: 24px;
+
+}
+.workItem{
+    background: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+   
+}
+.workImg img{
+    width: 100%;
+
+}
+
+
+.workLekha{
+    padding: 35px 37px;
+    background:#fff;
+    border-radius: 20px;
+    
+}
+.workLekha h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #151515;   
+
+}
+.workLekha p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#737373;   
+    line-height: 26px;
+    margin-top: 15px;
+
+}
+
+
+/*work part end */
+/* agenc part start  */
+#agencPart{
+    padding: 100px 0;
+}
+
+.agencHead h3{
+    padding: 0 252px;
+    line-height: 54px;
+   
+    font-size: 40px;
+    font-weight: 700;
+    color: #151515;   
+
+}
+.agencHead p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#737373;   
+    line-height: 26px;
+    margin-top: 15px;
+    padding: 0 37px;
+
+}
+.agencText h3{
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #151515;   
+}
+.agencText p{
+    margin-top: 15px; 
+    font-size: 16px;
+    font-weight: 400;
+    color:#737373;   
+    line-height: 20px;
+}
+.manImg{
+    margin-top: 100px;
+}
+.lightImg{
+    margin-top: 20px;
+}
+/* agenc part end */
+/* client part start  */
+#clientPart{
+    padding: 100px 0px;
+}
+.clientText{
+    padding-bottom: 100px ;
+}
+.clientText h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151515;
+
+}
+.clientText p{
+    padding: 0px 108px;
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 400;
+    color:#737373;   
+    line-height: 24px;
+   
+}
+.clientIcon{
+   font-size: 40px;
+    color:#8072c9 ;
+}
+.paragraph p{
+    font-size: 15px;
+    font-weight: 400;
+    color:#737373;   
+    line-height: 24px;
+    padding-right: 93px;
+    
+}
+.starImg{
+    margin-top: 15px;
+}
+.smileFlex{
+    display: flex;
+    margin-top: 20px;
+}
+.smileText{
+  padding-left: 15px;
+}
+.smileText h4{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 120%;
+    color: #232323;
+}
+.smileText p{
+    font-size: 13px;
+    font-weight: 400;
+    color:#737373;   
+    line-height: 24px;
+
+}
+.clienItem{
+    position: relative;
+  
+   
+}
+.commonOverly {
+    background: rgba(0, 0, 0, 0.1);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 8px;
+    left: -50px;
+    bottom: 67px;
+    border-radius: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+
+}
+.clienItem:hover .commonOverly{
+    opacity: 1;
+    visibility: visible;
+    /* client part end  */
+}
+/* Contact Part Start  */
+#contactPart{
+    padding: 100px 0;
+    background: #F3F3F3;
+
+}
+.contactForm{
+    background: #fff;
+    padding: 40px;
+    border-radius: 20px;
+}
+.contactForm input{
+    padding: 15px;
+}
+.contactForm input:focus{
+    box-shadow: none !important;
+    border:1px solid red  ;
+}
+.contactForm input::placeholder{
+    color: #D0D0D0;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.mybtn{
+    background: #6a4df4;
+    color: #fff;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contactText h3{
+    font-size: 45px;
+    font-weight: 700;
+    color: #151515;
+    padding:0px 94px;
+    margin-left: -92px;
+    margin-top: 23px;
+
+}
+.contactText p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#737373;   
+    line-height: 26px;
+    padding: 0px 57px;
+    margin-left: -53px;
+    margin-top: 35px;
+
+}
+/* last part start  */
+#lastPart{
+    padding: 150px;
+    background: #fff;
+
+}
+.pText p{
+    font-weight: 400;
+    color: #9F9F9F;
+    font-size: 14px;
+    margin-top: 10px;
+    line-height:26px;
+}
+.serial h4{
+    color: #151515;
+    font-size:16px ;
+    font-weight: 500;
+    margin-left: 46px;
+    margin-top: 15px;
+
+}
+.serial ul{
+    margin-top: 30px;
+
+}
+.serial ul li{
+    margin-top: 10px;
+    color: #737373;
+   
+    font-size:13px ;
+    font-weight: 500;
+    margin-left:13px;
+}
+.line{
+    position: relative;
+}
+.line::after {
+    position: absolute;
+    height: 1px;
+    width: 1144px;
+    background: #D0D0D0;
+    content: "";
+    left: 0px;
+    top: 89px;
+    transform: translateY(-50%);
+}
+.lp{
+    position: relative;
+}
+.lp h5 {
+    color: #D0D0D0;
+    font-weight: 400;
+    font-size: 12px;
+    position: absolute;
+    top: 108px;
+    right: -342px;
+}
+/* last part end  */
